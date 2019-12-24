@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113DFBFDE0A7C9B25A63FC30 /* Pods_Dog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74012AF33034403642A058FC /* Pods_Dog.framework */; };
+		224B75E1238535C6001C4F95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B75E0238535C6001C4F95 /* AppDelegate.m */; };
+		224B75E4238535C6001C4F95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B75E3238535C6001C4F95 /* ViewController.m */; };
+		224B75E7238535C6001C4F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B75E5238535C6001C4F95 /* Main.storyboard */; };
+		224B75E9238535C9001C4F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224B75E8238535C9001C4F95 /* Assets.xcassets */; };
+		224B75EC238535C9001C4F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B75EA238535C9001C4F95 /* LaunchScreen.storyboard */; };
+		224B75EF238535C9001C4F95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B75EE238535C9001C4F95 /* main.m */; };
+		224B75F9238535C9001C4F95 /* NimbleFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B75F8238535C9001C4F95 /* NimbleFishTests.m */; };
+		224B77092386304D001C4F95 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B77082386304D001C4F95 /* libz.tbd */; };
+		224B770B2386305A001C4F95 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B770A2386305A001C4F95 /* libiconv.tbd */; };
+		224B770D23863061001C4F95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B770C23863061001C4F95 /* Security.framework */; };
+		224B770F23863068001C4F95 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B770E23863068001C4F95 /* WebKit.framework */; };
+		ED77994623A4E3BD00174182 /* tiledbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994523A4E3BD00174182 /* tiledbackground.png */; };
+		ED77994823A4E3F800174182 /* splashbglite3-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994723A4E3F700174182 /* splashbglite3-sheet0.png */; };
+		ED77994A23A4E57300174182 /* gunslogo-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994923A4E57300174182 /* gunslogo-sheet0.png */; };
+		ED77994C23A4E68700174182 /* sprite-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994B23A4E68600174182 /* sprite-sheet0.png */; };
+		EDB47C6323AF39D5007E84BA /* H5GameWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB47C6223AF39D5007E84BA /* H5GameWebView.m */; };
+		EDB47C6C23AFA75A007E84BA /* 12zjwd.zip in Resources */ = {isa = PBXBuildFile; fileRef = EDB47C6B23AFA75A007E84BA /* 12zjwd.zip */; };
+		EDF4695623A2777700E3DCC7 /* game.zip in Resources */ = {isa = PBXBuildFile; fileRef = EDF4695523A2777600E3DCC7 /* game.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224B75F5238535C9001C4F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224B75D4238535C6001C4F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224B75DB238535C6001C4F95;
+			remoteInfo = NimbleFish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224B75DC238535C6001C4F95 /* FighterPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FighterPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B75DF238535C6001C4F95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		224B75E0238535C6001C4F95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		224B75E2238535C6001C4F95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		224B75E3238535C6001C4F95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224B75E6238535C6001C4F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224B75E8238535C9001C4F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224B75EB238535C9001C4F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224B75ED238535C9001C4F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B75EE238535C9001C4F95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224B75F4238535C9001C4F95 /* DogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B75F8238535C9001C4F95 /* NimbleFishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimbleFishTests.m; sourceTree = "<group>"; };
+		224B75FA238535C9001C4F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B77082386304D001C4F95 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		224B770A2386305A001C4F95 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		224B770C23863061001C4F95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		224B770E23863068001C4F95 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		23335BB438886FC269A7A171 /* Pods-Dog-DogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog-DogUITests.release.xcconfig"; path = "Target Support Files/Pods-Dog-DogUITests/Pods-Dog-DogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27E1513BCC3A31A13E4ACD8E /* Pods_Dog_DogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dog_DogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D06BAF5F416B1B8C43284DB /* Pods-Dog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog.release.xcconfig"; path = "Target Support Files/Pods-Dog/Pods-Dog.release.xcconfig"; sourceTree = "<group>"; };
+		4CAF42300DC4017CF6FAC940 /* Pods-Dog-DogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog-DogUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dog-DogUITests/Pods-Dog-DogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74012AF33034403642A058FC /* Pods_Dog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED77994523A4E3BD00174182 /* tiledbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiledbackground.png; sourceTree = "<group>"; };
+		ED77994723A4E3F700174182 /* splashbglite3-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashbglite3-sheet0.png"; sourceTree = "<group>"; };
+		ED77994923A4E57300174182 /* gunslogo-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gunslogo-sheet0.png"; sourceTree = "<group>"; };
+		ED77994B23A4E68600174182 /* sprite-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprite-sheet0.png"; sourceTree = "<group>"; };
+		EDB47C6123AF39D5007E84BA /* H5GameWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H5GameWebView.h; sourceTree = "<group>"; };
+		EDB47C6223AF39D5007E84BA /* H5GameWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5GameWebView.m; sourceTree = "<group>"; };
+		EDB47C6A23AF515C007E84BA /* Guns & Bottles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Guns & Bottles.entitlements"; path = "Dog/Guns & Bottles.entitlements"; sourceTree = "<group>"; };
+		EDB47C6B23AFA75A007E84BA /* 12zjwd.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 12zjwd.zip; sourceTree = "<group>"; };
+		EDB5EFBCC6C005592509551B /* Pods-Dog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog.debug.xcconfig"; path = "Target Support Files/Pods-Dog/Pods-Dog.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF4695523A2777600E3DCC7 /* game.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = game.zip; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224B75D9238535C6001C4F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B770F23863068001C4F95 /* WebKit.framework in Frameworks */,
+				224B770D23863061001C4F95 /* Security.framework in Frameworks */,
+				224B770B2386305A001C4F95 /* libiconv.tbd in Frameworks */,
+				224B77092386304D001C4F95 /* libz.tbd in Frameworks */,
+				113DFBFDE0A7C9B25A63FC30 /* Pods_Dog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B75F1238535C9001C4F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6A08937F958D0958328956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDB5EFBCC6C005592509551B /* Pods-Dog.debug.xcconfig */,
+				2D06BAF5F416B1B8C43284DB /* Pods-Dog.release.xcconfig */,
+				4CAF42300DC4017CF6FAC940 /* Pods-Dog-DogUITests.debug.xcconfig */,
+				23335BB438886FC269A7A171 /* Pods-Dog-DogUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		224B75D3238535C6001C4F95 = {
+			isa = PBXGroup;
+			children = (
+				EDB47C6A23AF515C007E84BA /* Guns & Bottles.entitlements */,
+				EDF4695523A2777600E3DCC7 /* game.zip */,
+				EDB47C6B23AFA75A007E84BA /* 12zjwd.zip */,
+				224B75DE238535C6001C4F95 /* dog */,
+				224B75F7238535C9001C4F95 /* dogTests */,
+				224B75DD238535C6001C4F95 /* Products */,
+				224B77072386304C001C4F95 /* Frameworks */,
+				1C6A08937F958D0958328956 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		224B75DD238535C6001C4F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224B75DC238535C6001C4F95 /* FighterPlane.app */,
+				224B75F4238535C9001C4F95 /* DogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224B75DE238535C6001C4F95 /* dog */ = {
+			isa = PBXGroup;
+			children = (
+				224B75DF238535C6001C4F95 /* AppDelegate.h */,
+				224B75E0238535C6001C4F95 /* AppDelegate.m */,
+				224B75E2238535C6001C4F95 /* ViewController.h */,
+				224B75E3238535C6001C4F95 /* ViewController.m */,
+				EDB47C6123AF39D5007E84BA /* H5GameWebView.h */,
+				EDB47C6223AF39D5007E84BA /* H5GameWebView.m */,
+				224B75E5238535C6001C4F95 /* Main.storyboard */,
+				224B75E8238535C9001C4F95 /* Assets.xcassets */,
+				224B75EA238535C9001C4F95 /* LaunchScreen.storyboard */,
+				224B75ED238535C9001C4F95 /* Info.plist */,
+				ED77994923A4E57300174182 /* gunslogo-sheet0.png */,
+				224B75EE238535C9001C4F95 /* main.m */,
+				ED77994B23A4E68600174182 /* sprite-sheet0.png */,
+				ED77994523A4E3BD00174182 /* tiledbackground.png */,
+				ED77994723A4E3F700174182 /* splashbglite3-sheet0.png */,
+			);
+			path = dog;
+			sourceTree = "<group>";
+		};
+		224B75F7238535C9001C4F95 /* dogTests */ = {
+			isa = PBXGroup;
+			children = (
+				224B75F8238535C9001C4F95 /* NimbleFishTests.m */,
+				224B75FA238535C9001C4F95 /* Info.plist */,
+			);
+			path = dogTests;
+			sourceTree = "<group>";
+		};
+		224B77072386304C001C4F95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				224B770E23863068001C4F95 /* WebKit.framework */,
+				224B770C23863061001C4F95 /* Security.framework */,
+				224B770A2386305A001C4F95 /* libiconv.tbd */,
+				224B77082386304D001C4F95 /* libz.tbd */,
+				74012AF33034403642A058FC /* Pods_Dog.framework */,
+				27E1513BCC3A31A13E4ACD8E /* Pods_Dog_DogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224B75DB238535C6001C4F95 /* Dog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224B7608238535C9001C4F95 /* Build configuration list for PBXNativeTarget "Dog" */;
+			buildPhases = (
+				4AA69ABFC5E94144BEAAD896 /* [CP] Check Pods Manifest.lock */,
+				224B75D8238535C6001C4F95 /* Sources */,
+				224B75D9238535C6001C4F95 /* Frameworks */,
+				224B75DA238535C6001C4F95 /* Resources */,
+				6847E883BC667D02A98AB203 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dog;
+			productName = NimbleFish;
+			productReference = 224B75DC238535C6001C4F95 /* FighterPlane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		224B75F3238535C9001C4F95 /* DogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224B760B238535C9001C4F95 /* Build configuration list for PBXNativeTarget "DogTests" */;
+			buildPhases = (
+				224B75F0238535C9001C4F95 /* Sources */,
+				224B75F1238535C9001C4F95 /* Frameworks */,
+				224B75F2238535C9001C4F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224B75F6238535C9001C4F95 /* PBXTargetDependency */,
+			);
+			name = DogTests;
+			productName = NimbleFishTests;
+			productReference = 224B75F4238535C9001C4F95 /* DogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224B75D4238535C6001C4F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhanghow;
+				TargetAttributes = {
+					224B75DB238535C6001C4F95 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					224B75F3238535C9001C4F95 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 224B75DB238535C6001C4F95;
+					};
+				};
+			};
+			buildConfigurationList = 224B75D7238535C6001C4F95 /* Build configuration list for PBXProject "Dog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224B75D3238535C6001C4F95;
+			productRefGroup = 224B75DD238535C6001C4F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224B75DB238535C6001C4F95 /* Dog */,
+				224B75F3238535C9001C4F95 /* DogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224B75DA238535C6001C4F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED77994623A4E3BD00174182 /* tiledbackground.png in Resources */,
+				224B75EC238535C9001C4F95 /* LaunchScreen.storyboard in Resources */,
+				EDB47C6C23AFA75A007E84BA /* 12zjwd.zip in Resources */,
+				EDF4695623A2777700E3DCC7 /* game.zip in Resources */,
+				ED77994C23A4E68700174182 /* sprite-sheet0.png in Resources */,
+				224B75E9238535C9001C4F95 /* Assets.xcassets in Resources */,
+				ED77994A23A4E57300174182 /* gunslogo-sheet0.png in Resources */,
+				ED77994823A4E3F800174182 /* splashbglite3-sheet0.png in Resources */,
+				224B75E7238535C6001C4F95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B75F2238535C9001C4F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AA69ABFC5E94144BEAAD896 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6847E883BC667D02A98AB203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dog/Pods-Dog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dog/Pods-Dog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dog/Pods-Dog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224B75D8238535C6001C4F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B75E4238535C6001C4F95 /* ViewController.m in Sources */,
+				224B75EF238535C9001C4F95 /* main.m in Sources */,
+				EDB47C6323AF39D5007E84BA /* H5GameWebView.m in Sources */,
+				224B75E1238535C6001C4F95 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224B75F0238535C9001C4F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B75F9238535C9001C4F95 /* NimbleFishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224B75F6238535C9001C4F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224B75DB238535C6001C4F95 /* Dog */;
+			targetProxy = 224B75F5238535C9001C4F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224B75E5238535C6001C4F95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224B75E6238535C6001C4F95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224B75EA238535C9001C4F95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224B75EB238535C9001C4F95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224B7606238535C9001C4F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CC_TARGET_OS_IPHONE,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+					HAVE_PKCRYPT,
+					HAVE_INTTYPES_H,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_PNG_TEXT = NO;
+			};
+			name = Debug;
+		};
+		224B7607238535C9001C4F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CC_TARGET_OS_IPHONE,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+					HAVE_PKCRYPT,
+					HAVE_INTTYPES_H,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRIP_PNG_TEXT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224B7609238535C9001C4F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB5EFBCC6C005592509551B /* Pods-Dog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Dog/Guns & Bottles.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = N29KPY62H5;
+				INFOPLIST_FILE = "$(SRCROOT)/dog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lite.game.fighterplane;
+				PRODUCT_NAME = FighterPlane;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		224B760A238535C9001C4F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D06BAF5F416B1B8C43284DB /* Pods-Dog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Dog/Guns & Bottles.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = N29KPY62H5;
+				INFOPLIST_FILE = "$(SRCROOT)/dog/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lite.game.fighterplane;
+				PRODUCT_NAME = FighterPlane;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		224B760C238535C9001C4F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimbleFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimble.fish.app.NimbleFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog.app/Dog";
+			};
+			name = Debug;
+		};
+		224B760D238535C9001C4F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimbleFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimble.fish.app.NimbleFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog.app/Dog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224B75D7238535C6001C4F95 /* Build configuration list for PBXProject "Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B7606238535C9001C4F95 /* Debug */,
+				224B7607238535C9001C4F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224B7608238535C9001C4F95 /* Build configuration list for PBXNativeTarget "Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B7609238535C9001C4F95 /* Debug */,
+				224B760A238535C9001C4F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224B760B238535C9001C4F95 /* Build configuration list for PBXNativeTarget "DogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224B760C238535C9001C4F95 /* Debug */,
+				224B760D238535C9001C4F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224B75D4238535C6001C4F95 /* Project object */;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="launch" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiledbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="7L3-Xa-9iR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashbglite3-sheet0.png" translatesAutoresizingMaskIntoConstraints="NO" id="gmJ-9P-VLr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gunslogo-sheet0.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q0B-zi-MOB">
+                                <rect key="frame" x="41.333333333333343" y="662" width="331.33333333333326" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6fa-Xz-Kth"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sprite-sheet0.png" translatesAutoresizingMaskIntoConstraints="NO" id="t6Z-vP-QXD">
+                                <rect key="frame" x="87" y="156.66666666666663" width="240" height="583"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="LtU-d2-9Ma"/>
+                                    <constraint firstAttribute="height" constant="583" id="ziw-Ml-QuN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7L3-Xa-9iR" secondAttribute="trailing" id="5ms-fs-Chh"/>
+                            <constraint firstItem="7L3-Xa-9iR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="DeL-Am-Hk7"/>
+                            <constraint firstItem="Q0B-zi-MOB" firstAttribute="width" secondItem="gmJ-9P-VLr" secondAttribute="width" multiplier="0.8" id="HeA-ha-Xxm"/>
+                            <constraint firstItem="Q0B-zi-MOB" firstAttribute="centerX" secondItem="gmJ-9P-VLr" secondAttribute="centerX" id="NDi-w3-2Go"/>
+                            <constraint firstItem="gmJ-9P-VLr" firstAttribute="centerX" secondItem="7L3-Xa-9iR" secondAttribute="centerX" id="NF5-f5-w7j"/>
+                            <constraint firstItem="gmJ-9P-VLr" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Ot4-2B-tBB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q0B-zi-MOB" secondAttribute="bottom" id="Tvz-S3-7rN"/>
+                            <constraint firstItem="gmJ-9P-VLr" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="d5o-TP-2Ms"/>
+                            <constraint firstItem="7L3-Xa-9iR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="enL-q7-BSb"/>
+                            <constraint firstItem="t6Z-vP-QXD" firstAttribute="centerX" secondItem="gmJ-9P-VLr" secondAttribute="centerX" id="gJe-yn-SEn"/>
+                            <constraint firstItem="gmJ-9P-VLr" firstAttribute="centerY" secondItem="7L3-Xa-9iR" secondAttribute="centerY" id="uKB-dO-NRA"/>
+                            <constraint firstItem="t6Z-vP-QXD" firstAttribute="centerY" secondItem="gmJ-9P-VLr" secondAttribute="centerY" id="yf7-Yj-2Og"/>
+                            <constraint firstAttribute="bottom" secondItem="7L3-Xa-9iR" secondAttribute="bottom" id="zlW-dx-Bk2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gunslogo-sheet0.png" width="498" height="251"/>
+        <image name="splashbglite3-sheet0.png" width="2000" height="2000"/>
+        <image name="sprite-sheet0.png" width="640" height="1136"/>
+        <image name="tiledbackground.png" width="640" height="1136"/>
+    </resources>
+</document>
