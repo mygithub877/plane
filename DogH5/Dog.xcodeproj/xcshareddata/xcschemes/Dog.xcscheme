@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "224B75DB238535C6001C4F95"
-               BuildableName = "Guns &amp; Bottles.app"
+               BuildableName = "FighterPlane.app"
                BlueprintName = "Dog"
                ReferencedContainer = "container:Dog.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "224B75DB238535C6001C4F95"
-            BuildableName = "Guns &amp; Bottles.app"
+            BuildableName = "FighterPlane.app"
             BlueprintName = "Dog"
             ReferencedContainer = "container:Dog.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "224B75DB238535C6001C4F95"
-            BuildableName = "Guns &amp; Bottles.app"
+            BuildableName = "FighterPlane.app"
             BlueprintName = "Dog"
             ReferencedContainer = "container:Dog.xcodeproj">
          </BuildableReference>

@@ -19,13 +19,9 @@
 		224B770B2386305A001C4F95 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B770A2386305A001C4F95 /* libiconv.tbd */; };
 		224B770D23863061001C4F95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B770C23863061001C4F95 /* Security.framework */; };
 		224B770F23863068001C4F95 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B770E23863068001C4F95 /* WebKit.framework */; };
-		ED77994623A4E3BD00174182 /* tiledbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994523A4E3BD00174182 /* tiledbackground.png */; };
-		ED77994823A4E3F800174182 /* splashbglite3-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994723A4E3F700174182 /* splashbglite3-sheet0.png */; };
-		ED77994A23A4E57300174182 /* gunslogo-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994923A4E57300174182 /* gunslogo-sheet0.png */; };
-		ED77994C23A4E68700174182 /* sprite-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77994B23A4E68600174182 /* sprite-sheet0.png */; };
 		EDB47C6323AF39D5007E84BA /* H5GameWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB47C6223AF39D5007E84BA /* H5GameWebView.m */; };
 		EDB47C6C23AFA75A007E84BA /* 12zjwd.zip in Resources */ = {isa = PBXBuildFile; fileRef = EDB47C6B23AFA75A007E84BA /* 12zjwd.zip */; };
-		EDF4695623A2777700E3DCC7 /* game.zip in Resources */ = {isa = PBXBuildFile; fileRef = EDF4695523A2777600E3DCC7 /* game.zip */; };
+		EDFED23023B8B988001C638E /* menu_background-sheet0.png in Resources */ = {isa = PBXBuildFile; fileRef = EDFED22F23B8B988001C638E /* menu_background-sheet0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,16 +57,12 @@
 		2D06BAF5F416B1B8C43284DB /* Pods-Dog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog.release.xcconfig"; path = "Target Support Files/Pods-Dog/Pods-Dog.release.xcconfig"; sourceTree = "<group>"; };
 		4CAF42300DC4017CF6FAC940 /* Pods-Dog-DogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog-DogUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dog-DogUITests/Pods-Dog-DogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		74012AF33034403642A058FC /* Pods_Dog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED77994523A4E3BD00174182 /* tiledbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiledbackground.png; sourceTree = "<group>"; };
-		ED77994723A4E3F700174182 /* splashbglite3-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashbglite3-sheet0.png"; sourceTree = "<group>"; };
-		ED77994923A4E57300174182 /* gunslogo-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gunslogo-sheet0.png"; sourceTree = "<group>"; };
-		ED77994B23A4E68600174182 /* sprite-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprite-sheet0.png"; sourceTree = "<group>"; };
 		EDB47C6123AF39D5007E84BA /* H5GameWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H5GameWebView.h; sourceTree = "<group>"; };
 		EDB47C6223AF39D5007E84BA /* H5GameWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5GameWebView.m; sourceTree = "<group>"; };
 		EDB47C6A23AF515C007E84BA /* Guns & Bottles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Guns & Bottles.entitlements"; path = "Dog/Guns & Bottles.entitlements"; sourceTree = "<group>"; };
 		EDB47C6B23AFA75A007E84BA /* 12zjwd.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 12zjwd.zip; sourceTree = "<group>"; };
 		EDB5EFBCC6C005592509551B /* Pods-Dog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog.debug.xcconfig"; path = "Target Support Files/Pods-Dog/Pods-Dog.debug.xcconfig"; sourceTree = "<group>"; };
-		EDF4695523A2777600E3DCC7 /* game.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = game.zip; sourceTree = "<group>"; };
+		EDFED22F23B8B988001C638E /* menu_background-sheet0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_background-sheet0.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				EDB47C6A23AF515C007E84BA /* Guns & Bottles.entitlements */,
-				EDF4695523A2777600E3DCC7 /* game.zip */,
 				EDB47C6B23AFA75A007E84BA /* 12zjwd.zip */,
 				224B75DE238535C6001C4F95 /* dog */,
 				224B75F7238535C9001C4F95 /* dogTests */,
@@ -143,11 +134,8 @@
 				224B75E8238535C9001C4F95 /* Assets.xcassets */,
 				224B75EA238535C9001C4F95 /* LaunchScreen.storyboard */,
 				224B75ED238535C9001C4F95 /* Info.plist */,
-				ED77994923A4E57300174182 /* gunslogo-sheet0.png */,
 				224B75EE238535C9001C4F95 /* main.m */,
-				ED77994B23A4E68600174182 /* sprite-sheet0.png */,
-				ED77994523A4E3BD00174182 /* tiledbackground.png */,
-				ED77994723A4E3F700174182 /* splashbglite3-sheet0.png */,
+				EDFED22F23B8B988001C638E /* menu_background-sheet0.png */,
 			);
 			path = dog;
 			sourceTree = "<group>";
@@ -256,14 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED77994623A4E3BD00174182 /* tiledbackground.png in Resources */,
 				224B75EC238535C9001C4F95 /* LaunchScreen.storyboard in Resources */,
 				EDB47C6C23AFA75A007E84BA /* 12zjwd.zip in Resources */,
-				EDF4695623A2777700E3DCC7 /* game.zip in Resources */,
-				ED77994C23A4E68700174182 /* sprite-sheet0.png in Resources */,
+				EDFED23023B8B988001C638E /* menu_background-sheet0.png in Resources */,
 				224B75E9238535C9001C4F95 /* Assets.xcassets in Resources */,
-				ED77994A23A4E57300174182 /* gunslogo-sheet0.png in Resources */,
-				ED77994823A4E3F800174182 /* splashbglite3-sheet0.png in Resources */,
 				224B75E7238535C6001C4F95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,7 +492,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Dog/Guns & Bottles.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = N29KPY62H5;
 				INFOPLIST_FILE = "$(SRCROOT)/dog/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
@@ -516,7 +500,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lite.game.fighterplane;
 				PRODUCT_NAME = FighterPlane;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -532,7 +516,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Dog/Guns & Bottles.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = N29KPY62H5;
 				INFOPLIST_FILE = "$(SRCROOT)/dog/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
@@ -540,7 +524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lite.game.fighterplane;
 				PRODUCT_NAME = FighterPlane;
 				PROVISIONING_PROFILE_SPECIFIER = "";
