@@ -7,9 +7,9 @@ target 'Dog' do
 
   # Pods for Dog
   pod 'Masonry'
-  pod 'SDWebImage'
+#  pod 'SDWebImage'
 #  pod 'YYModel'
-  pod 'AFNetworking'
+#  pod 'AFNetworking'
   pod 'BmobSDK'
   pod 'SSZipArchive'
   pod 'JPush'
